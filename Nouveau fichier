@@ -1,1 +1,34 @@
+<html>
+    <title> Login </title>
+    <body style="background-color:grey; font-size:150px">
+        <center>
+            <form action="login.php" method="post">
+                <table style="">
+                    <tr>
+                        <td> <label>Grade:</label> </td>
+                        <td> 
+                            <select id="user">
+                                <option value="Admin"> Admin </option>
+                                <option value="Admin"> Agent </option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <label>Pseudo: </label> </td>
+                        <td> <input type="text" name="pseudo"> </td>
+                    </tr>
+                    <tr>
+                        <td> <label>Password: </label> </td>
+                        <td> <input type="password" name="password"> </td>
+                    </tr>
+                    <tr>
+                         <td> <input type='submit' value="Valider"> </td>
+                         <td> <input type='submit' value="Quitter"> </td>
+                        <input type="hidden" name="submitted" value="1">
+                    </tr>
+                </table>
+            </form>
+        </center>
+    </body>
+</html>
 pargual

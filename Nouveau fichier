@@ -1,10 +1,9 @@
-<html>
-    <title> Login </title>
-    <body style="background-color:grey; font-size:150px">
-        <h1>Kevin</h1>
-        
+<title> Login </title>
+    <body style="background-color:grey; font-size:50px">     
         <center>
-            <form action="login.php" method="post">
+           <fieldset>
+             <legend>Se connecter à  la boutique</legend>
+             <form action="login.php" method="post">
                 <table style="">
                     <tr>
                         <td> <label>Grade:</label> </td>
@@ -24,13 +23,13 @@
                         <td> <input type="password" name="password"> </td>
                     </tr>
                     <tr>
-                         <td> <input type='submit' value="Valider"> </td>
+                         <td> <input type='submit' value="Se connecter"> </td>
                          <td> <input type='submit' value="Quitter"> </td>
                         <input type="hidden" name="submitted" value="1">
                     </tr>
                 </table>
             </form>
+        </fieldset>
         </center>
     </body>
 </html>
-pargual

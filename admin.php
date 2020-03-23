@@ -5,8 +5,8 @@
 
 		<title>page de connexion</title>
 		
-		<link rel="stylesheet"  href="css/bootstrap.min.css">
-		<link rel="stylesheet"  href="css/style_user.css">
+		<link rel="stylesheet"  href="bootstrap.min.css">
+		<link rel="stylesheet"  href="style_user.css">
 	</head>
 	<body>
 		<div class="contain">

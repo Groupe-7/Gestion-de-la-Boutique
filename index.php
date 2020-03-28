@@ -12,13 +12,13 @@
 					echo 'Connecté à la BD';
 				}
 				else {
-					die('erreur.');
+					die('Erreur.');
 				}
 				if ($db){
 					echo 'Base de données trouvée';
 				}
 				else {
-					die ('erreur. Base de donnée non trouvée');
+					die ('Erreur. Base de donnéeS non trouvée');
 				}
 			?>
 			
